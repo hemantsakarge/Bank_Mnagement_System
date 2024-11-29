@@ -12,7 +12,7 @@ public class Sbi implements Rbi {
 
 	
 	
-//List<List<Account>>ll=new ArrayList<>();
+
 	List<Account>ll=new ArrayList<>();//123
 	
 	Scanner sc=new Scanner(System.in);
@@ -95,11 +95,11 @@ public class Sbi implements Rbi {
 		}
 			
 		
-			}
-		}	
-		//l.add(a);
-		ll.add(a);
 	}
+	}	
+		
+		ll.add(a);
+}
 	public void displayAllDetails()
 	{
 		
@@ -112,18 +112,7 @@ public class Sbi implements Rbi {
 		
 		}
 		
-		
-//		for(List<Account> a1:ll)
-//		{
-//			Account a3=a1;
-//			for(Account a2:a1)
-//			{
-//				System.out.println(a2);
-//			}
-//		}
-		
-		
-	
+			
 	public void depositeMoney()
 	{
 		System.out.println("enter Acount number");
@@ -174,7 +163,7 @@ public class Sbi implements Rbi {
 	{
 		System.out.println("enter Acount number");
 		long ac1=sc.nextLong();
-		for(Account a2:ll)// chta hemant 
+		for(Account a2:ll) 
 		{
 		if(a2.getAccNo()==ac1)
 		{
